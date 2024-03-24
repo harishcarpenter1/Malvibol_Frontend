@@ -12,10 +12,18 @@ const Navbar = ({LoggedOut}) => {
 
   const updateElements = (e) => {
     if(toggle){
-      document.getElementById("nav_container").style.height="12vh";
+      document.getElementById("nav_container").style.height="auto";
+      const elements = document.getElementsByClassName("nav-link");
+      for (let i = 0; i < elements.length; i++) {
+          elements[i].style.display = "block";
+      }
       settoggle(false);
     }else{
       document.getElementById("nav_container").style.height="auto";
+      const elements = document.getElementsByClassName("nav-link");
+      for (let i = 0; i < elements.length; i++) {
+          elements[i].style.display = "none";
+      }
       settoggle(true);
     }
   }
@@ -32,6 +40,7 @@ const Navbar = ({LoggedOut}) => {
         offset={-70}
         duration={500}
         className='nav-link'
+        
       >
         Home
       </Link>

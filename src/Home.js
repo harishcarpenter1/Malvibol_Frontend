@@ -13,7 +13,7 @@ import Login from './Login';
 
 const Home = () => {
 
-  const [userLoggedIn, setUserLoggedIn] = useState(false);
+  const [userLoggedIn, setUserLoggedIn] = useState(true);
   const [loggedInPressed, setLoggedInPressed] = useState(false);
   const [signUpPressed, setSignUpPressed] = useState(false);
 

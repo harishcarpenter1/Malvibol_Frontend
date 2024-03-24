@@ -72,7 +72,7 @@
     color: var(--white);
 }
 
-@media only screen and (min-width: 280px) and (max-width: 800px) {
+@media only screen and (min-width: 300px) and (max-width: 800px) {
 
     .navbar {
         height: 12vh;
@@ -100,6 +100,7 @@
         text-align: center;
         width: 100%;
         font-size: 1.2rem;
+        display: none;
     }
 
     .loggedoutbtn {
@@ -109,13 +110,13 @@
     .loggedoutbtn_icon {
         display: block;
         position: absolute;
-        top: 1.6rem;
+        top: 1.5rem;
         right: 1rem;
     }
 
     .menu {
         position: absolute;
-        top: 1.6rem;
+        top: 1.5rem;
         left: 1rem;
         display: block;
     }
