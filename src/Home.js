@@ -25,7 +25,7 @@ const Home = () => {
 
     const timeout = setTimeout(() => {
       handleLogout();
-    }, 1 * 60 * 1000);
+    }, 15 * 60 * 1000);
 
     return () => clearTimeout(timeout);
   }, []);
