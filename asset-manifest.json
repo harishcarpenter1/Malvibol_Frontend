@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Malvibol_Frontend/static/css/main.5b34d2f6.css",
-    "main.js": "/Malvibol_Frontend/static/js/main.fb5b5973.js",
+    "main.js": "/Malvibol_Frontend/static/js/main.771343ca.js",
     "static/media/HarsidhiMata.jpg": "/Malvibol_Frontend/static/media/HarsidhiMata.58634fba18929632102a.jpg",
     "static/media/templeUjjain.jpg": "/Malvibol_Frontend/static/media/templeUjjain.3918487bc3e51f533290.jpg",
     "static/media/Mahakal.jpg": "/Malvibol_Frontend/static/media/Mahakal.14ef2a7d87436c42c02f.jpg",
@@ -9,10 +9,10 @@
     "static/media/PashupatiNath.jpg": "/Malvibol_Frontend/static/media/PashupatiNath.0471a7ae3bad0367c216.jpg",
     "index.html": "/Malvibol_Frontend/index.html",
     "main.5b34d2f6.css.map": "/Malvibol_Frontend/static/css/main.5b34d2f6.css.map",
-    "main.fb5b5973.js.map": "/Malvibol_Frontend/static/js/main.fb5b5973.js.map"
+    "main.771343ca.js.map": "/Malvibol_Frontend/static/js/main.771343ca.js.map"
   },
   "entrypoints": [
     "static/css/main.5b34d2f6.css",
-    "static/js/main.fb5b5973.js"
+    "static/js/main.771343ca.js"
   ]
 }
